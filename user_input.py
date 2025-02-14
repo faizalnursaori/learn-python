@@ -1,0 +1,10 @@
+# input() = sebuah function yang digunakan untuk mendapatkan data dari input user
+# Return nya akan sebagai string
+
+name = input("What is your name?: ")
+age = int(input("How old are you?: "))
+
+age += 1
+
+print(f"Hello {name}!")
+print(f"You are {age} years old")
