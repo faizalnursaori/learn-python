@@ -45,7 +45,7 @@ print(number_only.isdigit()) # True
 print("123a".isalnum())
 print("123".isalnum())
 
-#. find(substring) → Mencari posisi pertama substring dalam string (jika tidak ditemukan, return -1).
+# .find(substring) → Mencari posisi pertama substring dalam string (jika tidak ditemukan, return -1).
 print("Hello Bro".find("r"))
 
 # .replace(old, new) → Mengganti semua kemunculan substring dengan yang baru.
